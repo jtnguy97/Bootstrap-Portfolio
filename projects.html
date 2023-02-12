@@ -1,0 +1,142 @@
+<html>
+    <head>
+        <link rel = "icon" href="assets/favicon.ico">
+        <title>jenny ng</title>
+        <link href = "styles/styles.css" rel = "stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+        <!--Required meta tags-->
+        <meta charset="utf-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1">
+       
+        <!--Bootstrap CSS-->
+        <link rel = "stylesheet" href = "styles/bootstrap-icons.css">
+        <link rel = "stylesheet" href = "styles/bootstrap.min.css">
+    </head>
+
+    <!--bootstrap class for blue background--> 
+    <body style = "background-color: #5C4148;" class = "text-light title">
+        <!--NavBar-->
+        <nav class = "navbar navbar-expand-md navbar-light bg-light container-fluid ">
+            <a class = "navbar-brand" href = "index.html">
+                &emsp;<i class = "bi bi-house"></i>&ensp;jenny 
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-options">
+                <i class="navbar-toggler-icon"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-options">
+
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html">
+                        <i class="bi bi-code-slash"></i> code&ensp;
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">
+                        <i class="bi bi-chat-dots"></i> blog&ensp;
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">
+                        <i class="bi bi-person"></i> about&ensp;
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">
+                        <i class="bi bi-envelope"></i> contact&ensp;
+                    </a>
+                </li>
+            </ul>      
+            </div>      
+        </nav>
+
+        <!-- container used to contain, pad, and center content-->
+
+<div class = "container mt-4">
+    <h1>
+        <i class = "bi bi-code-slash"></i> <span class="typed"> </span>
+    </h1>
+    <hr>
+</div>
+
+    <div class = "container mt-5 mb-5">
+        <div class = "card bg-warning text-center bg-opacity-10 border-radius-50 col mb-5">
+            <div class = "row">
+                <div class = "col-md-4">
+                    <img src = "assets/hw1.png" width="200" height="200">
+                </div>
+                <div class = "col-md-8">
+                    <h2 class = "card-title mt-2"> school simulator </h2>
+                    <p> adventure into the school! there are fun activities and people to meet!</p>
+                    <small class = "text-light"> html, css, js, krita, procreate </small><p class = "separator"></p>
+                    <a href='https://jtnguy97.github.io/Interactive-Story-HW1/'> <button class = "button"><span>see more</span>  </button> </a>
+                </div>
+            </div>
+        </div>        
+
+        <div class = "card bg-warning text-center bg-opacity-10 border-radius-50 col mb-5">
+            <div class = "row">
+                <div class = "col-md-4">
+                    <img src = "assets/tictactoe.jpg" width="200" height="200">
+                </div>
+                <div class = "col-md-8">
+                    <h2 class = "card-title mt-2"> tic-tac-toe </h2>
+                    <p> this is a tic-tae-toe game i created in my intro to python class </p>
+                    <small class = "text-light"> python, google colab  </small><p class = "separator"></p>
+                    <a href='https://colab.research.google.com/drive/1ntdED85pvATQapNNNwy13Dw4A4Z8RTTg'> <button class = "button"><span>see more</span>  </button> </a>
+                </div>
+            </div>
+        </div>   
+        
+        <div class = "card bg-warning text-center bg-opacity-10 border-radius-50 col mb-5">
+            <div class = "row">
+                <div class = "col-md-4">
+                    <img src = "assets/videogames.jpg" width="200" height="200">
+                </div>
+                <div class = "col-md-8">
+                    <h2 class = "card-title mt-2"> video game sales analysis </h2>
+                    <p> this is an analysis i did on a kaggle dataset </p>
+                    <small class = "text-light">  python, kaggle </small><p class = "separator"></p>
+                    <a href='https://www.kaggle.com/code/jennyn97/exploratory-data-analysis/edit'> <button class = "button"><span>see more</span>  </button> </a>
+                </div>
+            </div>
+        </div>   
+
+        <div class = "card bg-warning text-center bg-opacity-10 border-radius-50 col mb-5">
+            <div class = "row">
+                <div class = "col-md-4">
+                    <img src = "assets/underground.jpg" width="200" height="200">
+                </div>
+                <div class = "col-md-8">
+                    <h2 class = "card-title mt-2"> dungeon crawler </h2>
+                    <p> turn based game i created in my first java class at UNO </p>
+                    <small class = "text-light"> java </small><p class = "separator"></p>
+                    <a href='https://github.com/jtnguy97/dungeon-crawler'> <button class = "button"><span>see more</span>  </button> </a>
+                </div>
+            </div>
+        </div>   
+
+</div>
+
+        <p class = "separator"></p>
+        <p class = "separator"></p>
+        <p class = "separator"></p>
+
+        <script src = "scripts/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+            var typed = new Typed(".typed",{
+            strings: [, "code"] ,
+            typeSpeed: 250,
+            loop: false
+            })
+        </script>
+
+    </body>
+
+</html>

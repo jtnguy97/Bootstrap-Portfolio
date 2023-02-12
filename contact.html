@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <link rel = "icon" href="assets/favicon.ico">
+        <title>jenny ng</title>
+        <link href = "styles/styles.css" rel = "stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <!--Required meta tags-->
+        <meta charset = "utf-8">
+        <meta name = "viewport" content="width=device-width, initial-scale=1">
+    
+        <!--Bootstrap CSS-->
+        <link rel = "stylesheet" href = "styles/bootstrap.min.css">
+        <link rel = "stylesheet" href = "styles/bootstrap-icons.css">
+    </head>
+<!--bg-dark bootstrap class for dark background
+text-light: bootstrap class for white text-->
+    <body style = "background-color: #5C4148" class = "text-light title">
+        
+        <!--Navbar-->
+        <nav class = "navbar navbar-expand-md navbar-light bg-light container-fluid">
+            <a class = "navbar-brand" href = "index.html">
+                &emsp;<i class = "bi bi-house"></i>&ensp;jenny 
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-options">
+                <i class="navbar-toggler-icon"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-options">
+
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html">
+                        <i class="bi bi-code-slash"></i> code&ensp;
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">
+                        <i class="bi bi-chat-dots"></i> blog&ensp;
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">
+                        <i class="bi bi-person"></i> about&ensp;
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">
+                        <i class="bi bi-envelope"></i> contact&ensp;
+                    </a>
+                </li>
+            </div>
+        </ul>   
+        </nav>
+
+    <div class = "container mt-4">
+        <h1>
+            <i class = "bi bi-envelope"></i> <span class="typed"> </span>
+        </h1>
+        <hr>
+    </div>
+       
+    <div class = "submit-form ">
+        <img src="assets/life3.jpg" style="width:55%">
+        <form class = "form">    
+            <div class = "form-group mb-3">
+                <label>name:</label>
+                <input class = "form-control" type = "text" id = "name" placeholder="name">
+            </div>
+
+            <div class = "form-group mb-3">
+                <label>email:</label>
+                <input class = "form-control" type = "email" id = "email" placeholder="email">
+            </div>
+
+            <div class = "form-group mb-3">
+                <label>subject:</label>
+                <input class = "form-control" type = "subject" id = "subject" placeholder="subject">
+            </div>
+
+            <div class = "form-group mb-3">
+                <label>message:</label>
+                <textarea class = "form-control " rows = "4" id="message" placeholder="message">  </textarea>
+            </div>
+            <button class = "button float-end" type = "submit"> <span> submit </span> </button>
+        </form>
+     <br>
+    </div>
+
+        <script src = "scripts/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+            var typed = new Typed(".typed",{
+            strings: [, "contact"] ,
+            typeSpeed: 250,
+            loop: false
+            })
+      </script>
+    </body>
+</html>

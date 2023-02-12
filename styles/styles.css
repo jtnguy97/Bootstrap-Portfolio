@@ -1,0 +1,89 @@
+.title{
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: 1;
+}
+
+.separator{
+    margin-top:20;
+    margin-bottom: 20;
+}
+
+.button {
+    border-radius: 20px;
+    background-color: transparent;
+    border-color:mistyrose;
+    color: mistyrose;
+    text-align: center;
+    padding: 6px;
+    font-size: 15px;
+    width: 150px;
+    transition: all .2s;
+    margin: 5px;
+    margin-left: 4;
+    cursor: grab;
+  }
+  
+  .button span {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    cursor: grab;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 26px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+body{
+    background-color: #5C4148;
+}
+
+.about-text{
+    font-style: italic;
+    font-size: small;
+}
+
+.about-images{
+    text-align: center;
+}
+
+#animation{
+    animation-timing-function: ease-in;
+    animation-delay: 7s;
+    animation-duration: 3s;
+}
+
+.submit-form {
+    display: flex; 
+    background: transparent;
+    padding: 2%;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100
+  }
+
+  input[type=text] {
+    width: 400px;
+ }
+
+ .spaceimg{
+    padding-left: 10;
+    padding-right:10;
+ }

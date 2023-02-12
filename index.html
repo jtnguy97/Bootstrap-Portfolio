@@ -1,1 +1,50 @@
-Hello World
+<html>
+    <head>
+        <link rel = "icon" href="assets/favicon.ico">
+        <title>jenny ng</title>
+        <link href = "styles/styles.css" rel = "stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1">
+
+        <link rel = "stylesheet" href = "styles/bootstrap.min.css">
+        <link rel = "stylesheet" href = "styles/bootstrap-icons.css">
+    </head>  
+
+    <body>       
+        <img class = "position-absolute w-100 h-100" src = "assets/background.jpg">
+        <div class = "title position-relative text-white container text-center
+        h-100 d-flex flex-column justify-content-center">
+    
+            <h1 class = "display-4"> <span class="typed"> </span></h1>
+            <p id = "animation" class = "animate__animated animate__fadeIn"> pronounced like win. get to know me! </p>
+            <p class = "separator"></p>
+
+            <div class = "button-space">
+                <button class = "button" onclick="document.location='projects.html'"><i class = "bi bi-code-slash"></i> <span>&ensp;code</span></button>
+                <button class = "button" onclick="document.location='blog.html'"><i class = "bi bi-chat-dots"></i> <span>&ensp;blog</span></button>
+                <button class = "button" onclick="document.location='about.html'"><i class = "bi bi-person"></i> <span>&ensp;about</span></button>
+                <button class = "button" onclick="document.location='contact.html'"><i class = "bi bi-envelope"></i> <span>&ensp;contact</span></button>
+            </div>
+
+        </div>
+        
+     
+        <script src = "scripts/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+            var typed = new Typed(".typed",{
+            strings: [,"hi there!", "my name is...", "jenny nguyen"] ,
+            typeSpeed: 80,
+            backSpeed: 40,
+            loop: false
+            })
+
+        </script>
+
+    </body>
+    
+    
+</html>
