@@ -87,3 +87,12 @@ body{
     padding-left: 10;
     padding-right:10;
  }
+
+ .article{
+  font-family: 'Lato', sans-serif;}
+
+  .paragraph{
+    font-family: 'Lato', sans-serif;
+    font-size: 17
+  }
+
