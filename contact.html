@@ -62,33 +62,34 @@ text-light: bootstrap class for white text-->
         <hr>
     </div>
        
-    <div class = "submit-form ">
+    <div class = "submit-form">
         <img src="assets/life3.jpg" style="width:55%">
-        <form class = "form">    
-            <div class = "form-group mb-3">
-                <label>name:</label>
-                <input class = "form-control" type = "text" id = "name" placeholder="name">
+        
+        <div class = "form">  
+            <br><br>  
+            <div class = "mb-3">
+                <input  class = "form-control" type = "text" id = "name" placeholder="name">
             </div>
 
-            <div class = "form-group mb-3">
-                <label>email:</label>
+            <div class = "mb-3">
                 <input class = "form-control" type = "email" id = "email" placeholder="email">
             </div>
 
-            <div class = "form-group mb-3">
-                <label>subject:</label>
+            <div class = "mb-3">
                 <input class = "form-control" type = "subject" id = "subject" placeholder="subject">
             </div>
 
             <div class = "form-group mb-3">
-                <label>message:</label>
-                <textarea class = "form-control " rows = "4" id="message" placeholder="message">  </textarea>
+                <textarea class = "form-control " rows = "6" id="message" placeholder="message">  </textarea>
             </div>
-            <button class = "button float-end" type = "submit"> <span> submit </span> </button>
-        </form>
+            <button class = "button float-end" id = "submit"> <span> submit </span> </button>
+            <p id = "email_animation" class = "animate__animated animate__fadeIn"></p>
+        </div>
      <br>
-    </div>
+</div>
 
+        <script src = "scripts/form-model.js" ></script>
+        <script src = "scripts/form-controller.js" ></script>
         <script src = "scripts/bootstrap.bundle.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
         <script>

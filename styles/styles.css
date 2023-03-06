@@ -73,7 +73,7 @@ body{
     padding: 2%;
   }
   
-  form {
+  .form {
     display: flex;
     flex-direction: column;
     margin-left: 100
@@ -96,3 +96,8 @@ body{
     font-size: 17
   }
 
+  #email_animation{
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-duration: 6s;
+}
