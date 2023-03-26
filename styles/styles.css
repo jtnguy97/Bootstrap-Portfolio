@@ -101,3 +101,10 @@ body{
     animation-delay: 1s;
     animation-duration: 6s;
 }
+
+.centered_image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+  }
