@@ -58,13 +58,30 @@ body{
 }
 
 .about-images{
-    text-align: center;
+    text-align: center;   
 }
 
-#animation{
+#animation_hello{
     animation-timing-function: ease-in;
-    animation-delay: 7s;
-    animation-duration: 3s;
+    animation-duration: 1.5s;
+}
+
+#animation_student{
+  animation-timing-function: ease-in;
+  animation-delay: 2s;
+  animation-duration: 2s;
+}
+
+#animation_know{
+  animation-timing-function: ease-in;
+  animation-delay: 2s;
+  animation-duration: 2s;
+}
+
+#animation_links{
+  animation-timing-function: ease-in;
+  animation-delay: 3s;
+  animation-duration: 3s;
 }
 
 .submit-form {
@@ -108,3 +125,43 @@ body{
     margin-right: auto;
     width: 35%;
   }
+
+a{
+  text-decoration: none
+}
+
+.fade_to_right{
+  opacity:0;
+  filter: blur(5px);
+  transition: 3s;
+  transform: translateX(-60%)
+}
+
+.fade_to_left{
+  opacity:0;
+  filter: blur(5px);
+  transition: 3s;
+  transform: translateX(60%)
+}
+
+.show{
+  opacity: 1;
+  filter: blur(.2);
+  transform: translateX(0);
+}
+
+.code_card:nth-child(2){
+  transition-delay: 200ms;
+}
+.code_card:nth-child(3){
+  transition-delay: 400ms;
+}
+.code_card:nth-child(4){
+  transition-delay: 600ms;
+}
+.code_card:nth-child(5){
+  transition-delay: 800ms;
+}
+.code_card:nth-child(6){
+  transition-delay: 800ms;
+}
