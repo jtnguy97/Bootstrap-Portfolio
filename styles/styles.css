@@ -133,14 +133,14 @@ a{
 .fade_to_right{
   opacity:0;
   filter: blur(5px);
-  transition: 3s;
+  transition: 4s;
   transform: translateX(-60%)
 }
 
 .fade_to_left{
   opacity:0;
   filter: blur(5px);
-  transition: 3s;
+  transition: 4s;
   transform: translateX(60%)
 }
 
@@ -164,4 +164,13 @@ a{
 }
 .code_card:nth-child(6){
   transition-delay: 800ms;
+}
+
+
+.zoom{
+  transition: transform 1.5s;
+}
+
+.zoom:hover{
+  transform: scale(1.08);
 }

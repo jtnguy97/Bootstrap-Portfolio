@@ -7,8 +7,9 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <meta charset = "utf-8">
         <meta name = "viewport" content = "width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
         <link rel = "stylesheet" href = "styles/bootstrap.min.css">
-        <link rel = "stylesheet" href = "styles/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     </head>  
 
     <body style = "background-color: #5C4148;" class = "text-light title">   
@@ -30,6 +31,7 @@
                 </div>       
             </nav>
             <img class = "position-absolute w-100 h-100" src = "assets/background.jpg">
+
             <div class = "title position-relative text-white container text-left
             h-100 d-flex flex-column justify-content-center">
             <br>
@@ -51,67 +53,74 @@
     <h1><i class = "bi bi-code-slash"></i> <span class="code_typed"> </span></h1><hr>
 </div>
             
-<div class = "container">
+<div class = "container offset-2">
     <div class = "row">
-    <div class = "col-md-3 col-sm-6 fade_to_right  fade_to_left  show fade code_card">
+    <div class = "col-md-4 col-sm-6 fade_to_right fade_to_left  show fade code_card">
         <div class = "card bg-info text-center bg-opacity-25 col">
-            <div class = "card-block">
-            <img class = "img-fluid" src = "assets/hw1.png" width="200" height="200">
+            <div class = "card-block text-light">
+            <img class = "img-fluid zoom" src = "assets/hw1.png" width="200" height="200">
             <h2 class = "card-title mt-2"> school simulator </h2>
             <p> adventure into the school! there are fun activities and people to meet!</p>
             <small class = "text-light"> html, css, js, krita, procreate </small><p class = "separator"></p>
-            <a href='https://jtnguy97.github.io/Interactive-Story-HW1/' target = "_blank"> <button class = "button"><span>see more</span>  </button> </a>
+            <a style = "text-decoration: none;" href='https://jtnguy97.github.io/Interactive-Story-HW1/' target = "_blank"> <button class = "button" style = "display: inline;"><span>demo</span>  </button> </a>
+            <a style = "text-decoration: none;" href= "https://github.com/jtnguy97/Interactive-Story-HW1" target = "_blank"> <button class = "button" style = "display: inline;"><span>src code</span>  </button> </a>
         </div>
     </div>   
 </div> 
 
     <div class = "col-md-3 col-sm-6 fade_to_right fade_to_left show fade code_card">
         <div class = "card bg-info text-center bg-opacity-25 col">
-            <div class = "card-block">
-                    <img class = "img-fluid" src = "assets/tictactoe.jpg" width="200" height="200">
+            <div class = "card-block text-light">
+                    <img class = "img-fluid zoom" src = "assets/tictactoe.jpg" width="200" height="200">
                     <h2 class = "card-title mt-2"> tic-tac-toe </h2>
                     <p> this is a tic-tae-toe game i created in my intro to python class </p>
                     <small class = "text-light"> python, google colab  </small><p class = "separator"></p>
-                    <a href='https://colab.research.google.com/drive/1ntdED85pvATQapNNNwy13Dw4A4Z8RTTg' target = "_blank"> <button class = "button"><span>see more</span>  </button> </a>
+                    <a href='https://colab.research.google.com/drive/1ntdED85pvATQapNNNwy13Dw4A4Z8RTTg' target = "_blank"> <button class = "button"><span>src code</span>  </button> </a>
             </div>
         </div>
     </div>
         
     <div class = "col-md-3 col-sm-6 fade_to_right fade_to_left show fade code_card">
         <div class = "card bg-info text-center bg-opacity-25 col">
-            <div class = "card-block">
-                    <img class = "img-fluid" src = "assets/videogames.jpg" width="200" height="200">
+            <div class = "card-block text-light">
+                    <img class = "img-fluid zoom" src = "assets/videogames.jpg" width="200" height="200">
                     <h2 class = "card-title mt-2"> video game sales analysis </h2>
                     <p> this is an analysis i did on a kaggle dataset </p>
                     <small class = "text-light">  python, kaggle </small><p class = "separator"></p>
-                    <a href='https://www.kaggle.com/code/jennyn97/exploratory-data-analysis/edit' target = "_blank"> <button class = "button"><span>see more</span>  </button> </a>
+                    <a href='https://www.kaggle.com/code/jennyn97/exploratory-data-analysis/edit' target = "_blank"> <button class = "button"><span>src code</span>  </button> </a>
             </div>   
         </div>
     </div>
 
-    <div class = "col-md-3 col-sm-6 fade_to_right fade_to_left show fade code_card">
-        <div class = "card bg-info text-center bg-opacity-25 col">
-            <div class = "card-block">
-                    <img class = "img-fluid" src = "assets/underground.jpg" width="200" height="200">
-                    <h2 class = "card-title mt-2"> dungeon crawler </h2>
-                    <p> turn based game i created in my first java class at UNO </p>
-                    <small class = "text-light"> java </small><p class = "separator"></p>
-                    <a href='https://github.com/jtnguy97/dungeon-crawler' target = "_blank"> <button class = "button"><span>see more</span>  </button> </a>
-            </div>   
-        </div>
-    </div>
-
-        <div class = "col-md-3 col-sm-6 mt-4 fade_to_right fade_to_left show fade code_card">
+        <div class = "col-md-4 col-sm-6 mt-4 fade_to_right fade_to_left show fade code_card">
             <div class = "card bg-info text-center bg-opacity-25 col">
-                <div class = "card-block">
-                        <img class = "img-fluid" src = "assets/phaser_game.png" width="200" height="200">
+                <div class = "card-block text-light">
+                        <img class = "img-fluid zoom" src = "assets/phaser_game.png" width="200" height="200">
                         <h2 class = "card-title mt-2"> money man </h2>
                         <p> platform game i created using phaser tutorials by photonstorm </p>
                         <small class = "text-light"> HTML, phaserJS, procreate </small><p class = "separator"></p>
-                        <a href='https://jtnguy97.github.io/platformer/' target = "_blank"> <button class = "button"><span>see more</span>  </button> </a>
+                        <a style = "text-decoration: none;" href='https://jtnguy97.github.io/platformer/' target = "_blank"> <button class = "button" style = "display: inline;"><span>demo</span>  </button> </a>
+                        <a style = "text-decoration: none;" href= "https://github.com/jtnguy97/platformer" target = "_blank"> <button class = "button" style = "display: inline;" ><span>src code</span>  </button> </a>
                 </div>   
             </div>
         </div>
+
+        <div class = "col-md-4 col-sm-6 mt-4 fade_to_right fade_to_left show fade code_card">
+            <div class = "card bg-info text-center bg-opacity-25 col">
+                <div class = "card-block text-light">
+                        <img class = "img-fluid zoom" src = "assets/dynamicsketch.png" width="400" height="200">
+                        <h2 class = "card-title mt-2"> dynamic sketch </h2>
+                        <p> website application marketing a proposed solution to increasing AT&T's 5g fiber footprint </p>
+                        <small class = "text-light"> Javascript, HTML, CSS, Bootstrap, AT&T resources </small><p class = "separator"></p>
+                            <a style = "text-decoration: none;" href= 'https://www.youtube.com/watch?v=sRgB7BGTenA' target = "_blank"> <button class = "button" style = "display: inline; "><span>presentation</span>  </button> </a>
+                            <a style = "text-decoration: none;" href='https://shakkalaa.github.io/Kayjen-Hacketeers/' target = "_blank"> <button class = "button" style = "display: inline;"><span>demo</span>  </button> </a>
+                            <a style = "text-decoration: none;" href='https://github.com/shakkalaa/Kayjen-Hacketeers' target = "_blank"> <button class = "button" style = "display: inline;"><span>src code</span>  </button> </a>  
+                    </div>    
+            </div>
+        </div>
+
+
+        
 </div>
 </div>
 </section>
@@ -125,15 +134,15 @@
 
 <div id = "blog-carousel" class = "carousel slide" data-bs-ride = "carousel" data-bs-interval = "3600">
     <ol class = "carousel-indicators">
-        <li data-bs-target="#blog-carousel" data-bs-slide-to="0" class = "active"></li>
-        <li data-bs-target = "#blog-carousel" data-bs-slide-to="1"></li>
-        <li data-bs-target = "#blog-carousel" data-bs-slide-to="2"></li>
+        <button data-bs-target="#blog-carousel" data-bs-slide-to="0" class = "active"></button>
+        <button data-bs-target = "#blog-carousel" data-bs-slide-to="1"></button>
+        <button data-bs-target = "#blog-carousel" data-bs-slide-to="2"></button>
     </ol>
 <!--carousel body-->
     <div class = "carousel-inner text-center">
       <!--active slide-->
       <div id = "slide-1" class = "carousel-item active">
-        <img width="450" height="430"  src = "assets/flag.jpg">
+        <img class = "zoom" width="450" height="430"  src = "assets/flag.jpg">
             <div class = "carousel-caption">
                 <br> <span> pbts and transgender youth </span>
                 &emsp;<a href = "articles/bioethicsPBT.html" target = "_blank"><button class = "button"> <span>read more</span> </button></a>
@@ -141,7 +150,7 @@
     </div>
 
     <div id = "slide-2" class = "carousel-item">
-        <img width="450" height="430" src = "assets/parasocial.PNG">
+        <img class = "zoom" width="450" height="430" src = "assets/parasocial.PNG">
         <!--carousel-caption -> text overlay on top slide image-->
             <div class = "carousel-caption">
                 <br> <span> parasocial relationships</span>
@@ -150,7 +159,7 @@
     </div>
 
         <div id = "slide-3" class = "carousel-item">
-            <img width="450" height="430" src = "assets/aiart.png">
+            <img class = "zoom" width="450" height="430" src = "assets/aiart.png">
             <!--carousel-caption -> text overlay on top slide image-->
                 <div class = "carousel-caption">
                     <br><span> ai art presentation </span>
@@ -176,8 +185,8 @@
 <!--About Me: using Grid & Flex-->
 <div class='container-fluid text-light row'>
     <!-- Column 1: Social links & Education -->
-    <div class="text-center col-md-2">
-            <img class = 'img-thumbnail rounded-circle fade_to_right fade_to_left show fade' width="110" height="70"  src = "assets/me_3.JPG">
+    <div class="text-center col-md-2 fade_to_right fade_to_left show fade ">
+            <img class = 'img-thumbnail rounded-circle zoom' width="110" height="70"  src = "assets/me_3.JPG">
             <h6 class = "lead fade_to_right fade_to_left show fade"> jenny nguyen </h6>
     <div class = "d-flex justify-content-center gap-4 m-4 fade_to_right fade_to_left show fade">
         <a href='https://discordapp.com/users/617532034549809160/' target = "_blank" class='text-white'> <i class="bi bi-discord"></i> </a>
@@ -205,12 +214,12 @@
     <!-- Row 1: Name & Image -->
     <div class = "about-images">
         <p class = "separator"></p>
-    <div>
-        <img class = "fade_to_right fade_to_left show fade code_card" src = "assets/life5.PNG" width="250" height="160">
-        &emsp; &emsp;<img class = "fade_to_right fade_to_left show fade code_card" src = "assets/me9.JPG" width="120" height="160">
-        &emsp; &emsp;<img class = "fade_to_right fade_to_left show fade code_card" src = "assets/me2.jpg" width="90" height="160">
-        &emsp; &emsp;<img class = "fade_to_right fade_to_left show fade code_card" src = "assets/me5.jpg" width="100" height="160">
-        &emsp; &emsp;<img class = "fade_to_right fade_to_left show fade code_card" src = "assets/life2.jpg" width="250" height="160">
+    <div class = "fade_to_right fade_to_left show fade">
+        <img class = "zoom" src = "assets/life5.PNG" width="250" height="160">
+        &emsp; &emsp;<img class = "zoom" src = "assets/me9.JPG" width="120" height="160">
+        &emsp; &emsp;<img class = "zoom" src = "assets/me2.jpg" width="90" height="160">
+        &emsp; &emsp;<img class = "zoom" src = "assets/me5.jpg" width="100" height="160">
+        &emsp; &emsp;<img class = "zoom" src = "assets/life2.jpg" width="250" height="160">
     </div>
     </div>
     
@@ -218,25 +227,25 @@
     <hr>
     <h2 class='display-6 text-center fade_to_right fade_to_left show fade'> &nbsp; learning </h2>  <br>
         <div class = "text-center fade_to_right fade_to_left show fade">
-            <img src='assets/icon-java.png' width="60", height="60">
-            <img src='assets/icon-js.png' width="60", height="60">
-            <img src='assets/python.png' width="60", height="60">
-            <img src='assets/mysql.png' width="60", height="60">
-            <img src='assets/powerpoint.png' width="60", height="60">
-            <img src='assets/icon-html5.png' width="60", height="60">
-            <img src='assets/icon-css3.png' width="60", height="60">
-            <img src='assets/icon-react.png' width="60", height="60">
-            <img src='assets/icon-npm.png' width="60", height="60">
+            <img class = "zoom" src='assets/icon-java.png' width="60", height="60">
+            <img class = "zoom" src='assets/icon-js.png' width="60", height="60">
+            <img class = "zoom" src='assets/python.png' width="60", height="60">
+            <img class = "zoom" src='assets/mysql.png' width="60", height="60">
+            <img class = "zoom" src='assets/powerpoint.png' width="60", height="60">
+            <img class = "zoom" src='assets/icon-html5.png' width="60", height="60">
+            <img class = "zoom" src='assets/icon-css3.png' width="60", height="60">
+            <img class = "zoom" src='assets/icon-react.png' width="60", height="60">
+            <img class = "zoom" src='assets/icon-npm.png' width="60", height="60">
         </div>
         <br>
     <hr>
 
     <h2 class='display-6 text-center fade_to_right fade_to_left show fade'> &nbsp; hobbies </h2><br>
         <div class = "text-center fade_to_right fade_to_left show fade">
-            <img src='assets/pharmacy.png' width="60", height="60">
-            <img src='assets/krita.png' width="60", height="60">
-            <img src='assets/procreate.png' width="60", height="60">
-            <img src='assets/music.png' width="60", height="60">
+            <img class = "zoom" src='assets/pharmacy.png' width="60", height="60">
+            <img class = "zoom" src='assets/krita.png' width="60", height="60">
+            <img class = "zoom" src='assets/procreate.png' width="60", height="60">
+            <img class = "zoom" src='assets/music.png' width="60", height="60">
         </div>
     <br>
     <hr>
@@ -259,27 +268,24 @@
 </div>
    
 <div class = "submit-form">
-    <img  class = "fade_to_right fade_to_left fade show" src="assets/life3.jpg" style="width:55%">
-    
-    <div class = "form fade_to_left fade_to_right fade show">  
+    <img  class = "zoom" src="assets/life3.jpg" style="width:55%">
+   
+    <div class = "form fade_to_right fade_to_left fade show code_card">  
         <br><br>  
         <div class = "mb-3">
             <input  class = "form-control" type = "text" id = "name" placeholder="name">
         </div>
-
         <div class = "mb-3">
             <input class = "form-control" type = "email" id = "email" placeholder="email">
         </div>
-
         <div class = "mb-3">
             <input class = "form-control" type = "subject" id = "subject" placeholder="subject">
         </div>
-
         <div class = "form-group mb-3">
             <textarea class = "form-control " rows = "6" id="message" placeholder="message">  </textarea>
         </div>
 
-        <button class = "button float-end" id = "submit"> <span> submit </span> </button>
+        <button class = "button float-end fade_to_right fade_to_left fade show code_card" id = "submit"> <span> submit </span> </button>
         <p id = "email_animation" class = "animate__animated animate__fadeIn"></p>
     </div>
     <p class = "separator"></p>
@@ -289,9 +295,9 @@
 <!--end contact div-->
 
         <script src = "scripts/animate.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
         <script src = "scripts/form-model.js" ></script>
         <script src = "scripts/form-controller.js" ></script>
-        <script src = "scripts/bootstrap.bundle.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
         <!--typedJS for home screen-->
         <script>
@@ -338,7 +344,6 @@
             })
         </script>
 
-      
 
     </body>
     
