@@ -24,6 +24,7 @@
     
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#code"><i class="bi bi-code-slash"></i> code&ensp;</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#artwork"><i class="bi bi-brush"></i> art&ensp;</a></li>
                         <li class="nav-item"><a class="nav-link" href="#blog"><i class="bi bi-chat-dots"></i> blog&ensp;</a></li>
                         <li class="nav-item"><a class="nav-link" href="#about"><i class="bi bi-person"></i> about&ensp;</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact"><i class="bi bi-envelope"></i> contact&ensp;</a></li>
@@ -129,6 +130,54 @@
 </div>
 </section>
 <!--end div #code-->
+
+
+
+<section id = "artwork"> <br><br>
+<div class = "container mt-4">
+<h1><i class="bi bi-brush"></i> <span class="art_typed"> </span></h1><hr>
+<div class = "container row justify-content-md-center">
+<h6 class = "text-center">I enjoy animating and sketching in my free time.</h6>
+<h6 class = "text-center">Feel free to email me <a style = "text-decoration-color: white; color: white " href="mailto: @jennietn95@gmail.com" target="_blank">here</a> and connect if you want to chat about art! <p id = "animation_links" style = "margin-top: 10">
+    <a href='www.linkedin.com/in/jenny-tv-nguyen/' target = "_blank" class='text-white separator_horizontal'> <i class="bi bi-linkedin"></i></a>
+    <a href='https://github.com/jtnguy97' target = "_blank" class='text-white'> <i class="bi bi-github separator_horizontal"></i></a>
+    <a href='https://discordapp.com/users/617532034549809160/' target = "_blank" class='text-white separator_horizontal'> <i class="bi bi-discord"></i></a>
+</p></h6>
+
+<br><br>
+
+
+    <h4 class = "text-center">ANIMATIONS</h4>
+    <img class = "col-2 separator zoom" src = "artwork gallery/door_animation.gif" width="100" height="150">
+    <img class = "col-2 separator zoom" src = "artwork gallery/flower_animation.gif" width="110" height="150">
+    <img class = "col-2 separator zoom" src = "artwork gallery/girl_animation.GIF" width="90" height="150">
+    <img class = "col-2 separator zoom" src = "artwork gallery/school_animation.gif" width="110" height="150">
+    <img class = "col-2 separator zoom" src = "artwork gallery/sleep_animation.gif" width="110" height="150">
+</div>
+<br><br>
+
+<h4 class = "text-center">COLOR PAINTINGS</h4>
+<div class = "container row justify-content-md-center">
+    <img class = "col-3 separator2 zoom" src = "artwork gallery/cherry_painting.JPG" width="150" height="340">
+    <img class = "col-3 separator2 zoom" src = "artwork gallery/sketch4.JPG" width="150" height="340">
+    <img class = "col-3 separator2 zoom" src = "artwork gallery/sketch3.png" width="150" height="340">
+</div>
+<br><br>
+
+<h4 class = "text-center">SKETCHES</h4>
+<div class = "container row justify-content-md-center">
+    <img class = "col-2 separator3 zoom" src = "artwork gallery/sketch1.jpg" width="160" height="340">
+    <img class = "col-2 separator3 zoom" src = "artwork gallery/sketch2.jpg" width="160" height="340">
+    <img class = "col-4 separator3 zoom" src = "artwork gallery/sketch5.PNG" width="150" height="340">
+    <img class = "col-2 separator3 zoom" src = "artwork gallery/sketch6.PNG" width="160" height="340">
+</div>
+
+
+</div>
+</div>
+<br><br>
+</section>
+<!--end contact div-->
      
 <!--beginning section blogs-->
 <section id = "blog"><br><br>
@@ -289,6 +338,12 @@
     <div class = "form fade_to_right fade_to_left fade show code_card">  
         <br><br>  
         <div class = "mb-3">
+            <p id = "animation_links">
+                <a href='www.linkedin.com/in/jenny-tv-nguyen/' target = "_blank" class='text-white separator_horizontal'> <i class="bi bi-linkedin"></i></a>
+                <a href='https://github.com/jtnguy97' target = "_blank" class='text-white'> <i class="bi bi-github separator_horizontal"></i></a>
+                <a href='https://discordapp.com/users/617532034549809160/' target = "_blank" class='text-white separator_horizontal'> <i class="bi bi-discord"></i></a>
+            </p>
+            
             <input  class = "form-control" type = "text" id = "name" placeholder="name">
         </div>
         <div class = "mb-3">
@@ -298,7 +353,7 @@
             <input class = "form-control" type = "subject" id = "subject" placeholder="subject">
         </div>
         <div class = "form-group mb-3">
-            <textarea class = "form-control " rows = "6" id="message" placeholder="message">  </textarea>
+            <textarea class = "form-control " rows = "4" id="message" placeholder="message">  </textarea>
         </div>
 
         <button class = "button float-end fade_to_right fade_to_left fade show code_card" id = "submit"> <span> submit </span> </button>
@@ -338,6 +393,15 @@
             var typed = new Typed(".blog_typed",{
             strings: [, "blog"] ,
             typeSpeed: 280,
+            loop: false
+            })
+        </script>
+
+        <!--typedJS for art-->
+        <script>
+            var typed = new Typed(".art_typed",{
+            strings: [, "artwork"] ,
+            typeSpeed: 250,
             loop: false
             })
         </script>
