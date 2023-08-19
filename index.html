@@ -24,7 +24,7 @@
 
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#code"><i class="bi bi-code-slash"></i> code&ensp;</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#artwork"><i class="bi bi-brush"></i> art&ensp;</a></li>
+                        <li class="nav-item dropdown"><a class="nav-link" href="#artwork"><i class="bi bi-brush"></i> art&ensp;</a></li>
                         <li class="nav-item"><a class="nav-link" href="#blog"><i class="bi bi-chat-dots"></i> blog&ensp;</a></li>
                         <li class="nav-item"><a class="nav-link" href="#about"><i class="bi bi-person"></i> about&ensp;</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact"><i class="bi bi-envelope"></i> contact&ensp;</a></li>
@@ -137,6 +137,19 @@
             </div>
         </div>
 
+        <div class = "col-md-5 col-sm-6 mt-4 fade_to_right fade_to_left show fade code_card">
+            <div class = "card bg-info text-center bg-opacity-25 col">
+                <div class = "card-block text-light">
+                        <img class = "zoom" src = "assets/petpedia.jpg" width="275" height="180">
+                        <h2 class = "card-title mt-2"> PetPedia </h2>
+                        <p> mobile application for users to search for adoptable pets </p>
+                        <small class = "text-light"> ReactJS, Expo Go </small><p class = "separator"></p>
+                        <a style = "text-decoration: none;" href='https://jtnguy97.github.io/covid_api_app/' target = "_blank"> <button class = "button" style = "display: inline;"><span>demo</span>  </button> </a>
+                        <a style = "text-decoration: none;" href= "https://github.com/jtnguy97/PetPedia" target = "_blank"> <button class = "button" style = "display: inline;" ><span>src code</span>  </button> </a>
+                </div>   
+            </div>
+        </div>
+
 
 </div>
 </div>
@@ -155,6 +168,59 @@
     <a href='https://github.com/jtnguy97' target = "_blank" class='text-white'> <i class="bi bi-github separator_horizontal"></i></a>
     <a href='https://discordapp.com/users/617532034549809160/' target = "_blank" class='text-white separator_horizontal'> <i class="bi bi-discord"></i></a>
 </p></h6>
+
+<div id = "blog-carousel" class = "carousel slide" data-bs-ride = "carousel" data-bs-interval = "3600">
+    <ol class = "carousel-indicators">
+        <button data-bs-target="#blog-carousel" data-bs-slide-to="0" class = "active"></button>
+        <button data-bs-target = "#blog-carousel" data-bs-slide-to="1"></button>
+        <button data-bs-target = "#blog-carousel" data-bs-slide-to="2"></button>
+        <button data-bs-target = "#blog-carousel" data-bs-slide-to="3"></button>
+        <button data-bs-target = "#blog-carousel" data-bs-slide-to="4"></button>
+        <button data-bs-target = "#blog-carousel" data-bs-slide-to="5"></button>
+        <button data-bs-target = "#blog-carousel" data-bs-slide-to="6"></button>
+    </ol>
+<!--carousel body-->
+    <div class = "carousel-inner text-center">
+      <!--active slide-->
+
+      <div id = "slide-1" class = "carousel-item">
+        <img class = "zoom" width="450" height="430" src = "artwork gallery/cherry_painting.JPG">
+    </div>
+
+
+      <div id = "slide-2" class = "carousel-item active">
+        <img class = "zoom" width="400" height="430"  src = "artwork gallery/flower_animation.gif">
+    </div>
+
+    <div id = "slide-3" class = "carousel-item">
+        <img class = "zoom" width="300" height="430" src = "artwork gallery/sketch1.jpg">
+    </div>
+
+    <div id = "slide-4" class = "carousel-item">
+        <img class = "zoom" width="450" height="430" src = "artwork gallery/sleep_animation.gif">
+    </div>
+
+    <div id = "slide-5" class = "carousel-item">
+        <img class = "zoom" width="450" height="430" src = "artwork gallery/girl_animation.GIF">
+    </div>
+
+    <div id = "slide-6" class = "carousel-item">
+        <img class = "zoom" width="350" height="430" src = "artwork gallery/sketch4.JPG">
+    </div>
+
+    <div id = "slide-7" class = "carousel-item">
+        <img class = "zoom" width="350" height="430" src = "artwork gallery/sketch6.PNG">
+    </div>
+
+</div>     <br><br><br>
+<!--controls-->
+    <a class = "carousel-control-prev" href = "#blog-carousel" role = "button" data-bs-slide = "prev"> 
+        <i class = "carousel-control-prev-icon"></i></a>
+    <a class = "carousel-control-next" href = "#blog-carousel" role = "button" data-bs-slide = "next"> 
+        <i class = "carousel-control-next-icon"></i></a><br>
+</div>
+
+
 
 
 </section>
