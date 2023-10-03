@@ -111,21 +111,6 @@ body{
   animation-duration: 3s;
 }
 
-.submit-form {
-    display: flex; 
-    background: transparent;
-    padding: 2%;
-  }
-  
-  .form {
-    display: flex;
-    flex-direction: column;
-    margin-left: 100
-  }
-
-  input[type=text] {
-    width: 400px;
- }
 
  .spaceimg{
     padding-left: 10;
@@ -200,4 +185,13 @@ a{
 
 .zoom:hover{
   transform: scale(1.08);
+}
+
+.center_card{
+ display: flex;
+ justify-content: space-evenly;
+}
+
+#submit_form{
+  text-align: center;
 }
