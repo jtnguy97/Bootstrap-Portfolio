@@ -99,18 +99,18 @@ body{
   animation-duration: 2s;
 }
 
-#animation_know{
-  animation-timing-function: ease-in;
-  animation-delay: 2s;
-  animation-duration: 2s;
-}
 
-#animation_links{
+#animation_website{
   animation-timing-function: ease-in;
   animation-delay: 3s;
   animation-duration: 3s;
 }
 
+#animation_links{
+  animation-timing-function: ease-in;
+  animation-delay: 4s;
+  animation-duration: 3s;
+}
 
  .spaceimg{
     padding-left: 10;
@@ -194,4 +194,11 @@ a{
 
 #submit_form{
   text-align: center;
+}
+
+
+
+.logo-image{
+  width: 40px;
+  height: 40px;
 }
